@@ -30,7 +30,7 @@ body:
         - "unstable"
         - "dev"
         - "libs"
-        - "main"
+        - "stable"
     validations:
       required: true
   - type: textarea
