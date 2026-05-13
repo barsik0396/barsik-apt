@@ -29,7 +29,7 @@ Replaces: barsik-cmd
 Homepage: https://barsik0396.github.io/BarsikCMD
 Section: utils
 Priority: optional
-Filename: pool/main/barsik-cmd_2026.3.4_amd64.deb
+Filename: pool/stable/barsik-cmd_2026.3.4_amd64.deb
 Size: 83328442
 MD5sum: 0cc6c57f791421cd9b58ebb487b726c9
 SHA1: c62143c9733fba974664200082292d5a6ad460b5
@@ -46,7 +46,7 @@ Recommends:
 Homepage: https://barsik0396.github.io/BarsikCMD
 Section: utils
 Priority: optional
-Filename: pool/main/barsik-cmd_2026.3.3_amd64.deb
+Filename: pool/stable/barsik-cmd_2026.3.3_amd64.deb
 Size: 83305980
 MD5sum: 9f9ceaa2df20d96f1a15f54ad5b52b06
 SHA1: 3b0c87b353f59e6230b0083ca378c765a3a81b9e
@@ -63,7 +63,7 @@ Recommends:
 Homepage: https://barsik0396.github.io/BarsikCMD
 Section: utils
 Priority: optional
-Filename: pool/main/barsik-cmd_2026.3.2_amd64.deb
+Filename: pool/stable/barsik-cmd_2026.3.2_amd64.deb
 Size: 83317980
 MD5sum: a4c30c88cd658f958937fc9c04031f5e
 SHA1: 4405f5fb9e295d5b66ac271ec0bae6c1a7a2f1c7
@@ -76,7 +76,7 @@ Maintainer: Barsik0396 <Barsik0396@outlook.com>
 Description: Терминал Барсика
  BarsikTerm это простой, лёгкий и open-source терминал с GUI на базе Qt.
 Installed-Size: 112
-Filename: pool/main/BarsikTerm_v0.1.0_linux_debian-based.deb
+Filename: pool/stable/BarsikTerm_v0.1.0_linux_debian-based.deb
 Size: 24880
 MD5sum: fdd134b75ad01a7d95b1893e6990682b
 SHA1: 2e5911175d06a1e9dd4aa1dfa521fba926bc8912
