@@ -6,7 +6,9 @@
 
 # Установка
 ```bash
-echo "deb [arch=amd64 trusted=yes] https://barsik0396.github.io/barsik-apt stable main" | sudo tee /etc/apt/sources.list.d/barsik-apt.list
+for channel in stable unstable dev libs community community-unstable community-dev community-libs; do
+    echo "deb [arch=amd64 trusted=yes] https://barsik0396.github.io/barsik-apt $channel main" | sudo tee /etc/apt/sources.list.d/barsik-apt-$channel.list
+done
 sudo apt update
 ```
 
