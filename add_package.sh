@@ -26,42 +26,6 @@ MD5=$(md5sum "$POOL_DIR/$FILENAME" | cut -d' ' -f1)
 SHA1=$(sha1sum "$POOL_DIR/$FILENAME" | cut -d' ' -f1)
 SHA256=$(sha256sum "$POOL_DIR/$FILENAME" | cut -d' ' -f1)
 
-PACKAGE_NAME=$(echo "$PKG_INFO" | grep '^Package:' | awk '{print $2}')
-ARCH=$(echo "$PKG_INFO" | grep '^Architecture:' | awk '{print $2}')
-
-# Remove old entry for same Package+Architecture
-if [[ -f "$DISTS_DIR/Packages" ]]; then
-    python3 - "$DISTS_DIR/Packages" "$PACKAGE_NAME" "$ARCH" <<'EOF'
-import sys
-
-packages_file = sys.argv[1]
-pkg_name = sys.argv[2]
-pkg_arch = sys.argv[3]
-
-with open(packages_file, 'r') as f:
-    content = f.read()
-
-blocks = content.strip().split('\n\n')
-filtered = []
-for block in blocks:
-    if not block.strip():
-        continue
-    name, arch = None, None
-    for line in block.splitlines():
-        if line.startswith('Package:'):
-            name = line.split(':', 1)[1].strip()
-        if line.startswith('Architecture:'):
-            arch = line.split(':', 1)[1].strip()
-    if not (name == pkg_name and arch == pkg_arch):
-        filtered.append(block)
-
-with open(packages_file, 'w') as f:
-    f.write('\n\n'.join(filtered))
-    if filtered:
-        f.write('\n\n')
-EOF
-fi
-
 # Append new entry
 cat >> "$DISTS_DIR/Packages" <<EOF
 $PKG_INFO
