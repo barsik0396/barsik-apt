@@ -35,3 +35,37 @@ MD5sum: 0cc6c57f791421cd9b58ebb487b726c9
 SHA1: c62143c9733fba974664200082292d5a6ad460b5
 SHA256: c9cd8a90c1a42c85bbc42dbb6565a788f9ad23601621748be20f02883d214374
 
+Package: barsikcmd
+Version: 2026.3.3
+Architecture: amd64
+Maintainer: barsik0396 <Barsik0396@outlook.com>
+Description: BarsikCMD - командная строка Барсика
+ BarsikCMD это кастомная командная строка, которую создал Барсик. Этот проект полностью open-source, и доступен на GitHub (https://github.com/barsik0396/BarsikCMD). У BarsikCMD есть несколько базовых команд: clear (очистка экрана), echo <текст> (вывод текста), exit (выход), help (список команд), update (обновить) и ver (вывод версии). Удачи с использованием!
+Depends: libcurl4-openssl-dev
+Recommends: 
+Homepage: https://barsik0396.github.io/BarsikCMD
+Section: utils
+Priority: optional
+Filename: pool/main/barsik-cmd_2026.3.3_amd64.deb
+Size: 83305980
+MD5sum: 9f9ceaa2df20d96f1a15f54ad5b52b06
+SHA1: 3b0c87b353f59e6230b0083ca378c765a3a81b9e
+SHA256: 4ee9321fba50b8e3a2e5a5a5b634119b596c96c43f8c06c2ec9d36079d710d75
+
+Package: barsikcmd
+Version: 2026.3.2
+Architecture: amd64
+Maintainer: barsik0396 <Barsik0396@outlook.com>
+Description: BarsikCMD - командная строка Барсика
+ BarsikCMD это кастомная командная строка, которую создал Барсик. Этот проект полностью open-source, и доступен на GitHub (https://github.com/barsik0396/BarsikCMD). У BarsikCMD есть несколько базовых команд: clear (очистка экрана), echo <текст> (вывод текста), exit (выход), help (список команд), update (обновить) и ver (вывод версии). Удачи с использованием!
+Depends: libcurl4-openssl-dev
+Recommends: 
+Homepage: https://barsik0396.github.io/BarsikCMD
+Section: utils
+Priority: optional
+Filename: pool/main/barsik-cmd_2026.3.2_amd64.deb
+Size: 83317980
+MD5sum: a4c30c88cd658f958937fc9c04031f5e
+SHA1: 4405f5fb9e295d5b66ac271ec0bae6c1a7a2f1c7
+SHA256: 5a1ab6293d61ed0df68145cecd35ca3bc5aa959e6db1c1b3c34571f98f4b4b59
+
