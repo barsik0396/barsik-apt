@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "label": "barsik-apt",
+  "labelColor": "#222222",
+
+  "message": "4",
+  "color": "brightgreen",
+
+  "isError": false,
+
+  "style": "flat-square",
+
+  "cacheSeconds": 1,
+
+  "link": [
+    "https://github.com/barsik0396/barsik-apt/",
+    "https://barsik0396.github.io/barsik-apt/"
+  ],
+
+  "labelSuffix": " status",
+  "messageSuffix": " ✓",
+
+  "tooltip": "barsik-apt pkg versions",
+
+  "namedLogoColor": "white",
+
+  "extra": {
+    "mirrors": 1,
+    "region": "EU-Riga",
+    "mirror-list": [
+        "https://barsik0396.github.io/barsik-apt/"
+    ],
+    "main-mirror": "https://barsik0396.github.io/barsik-apt"
+  }
+}
