@@ -1,0 +1,39 @@
+name: Баг репорт
+description: Сообщить о баге
+title: "Баг: "
+labels: ["bug"]
+
+body:
+  - type: input
+    attributes:
+      label: Что за баг?
+      description: "Кратко опишите найденный баг."
+      placeholder: "Повреждён пакет barsikcmd 2026.3.3"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Что происходит?
+      placeholder: "При запуске barsikcmd выдаётся ошибка безопасности от BarsikAV (твой же антивирус)"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Что должно произойти?
+      placeholder: "Должно было нормально запустится"
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Возможное исправление
+      placeholder: "Обновить репозиторий и сделать проверку"
+    validations:
+      required: false
+  - type: checkboxes
+    attributes:
+      label: Чекбоксы
+      options:
+        - label: Я проверил, что Issue по такой проблеме нет
+          required: true
+        - label: У меня последняя версия репозитория (sudo apt update)
+          required: true

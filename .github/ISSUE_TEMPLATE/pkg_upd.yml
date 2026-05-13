@@ -1,0 +1,26 @@
+name: Обновление пакета
+description: Обновить пакет в barsik-apt
+title: "Обновление: "
+labels: ["pkg-update"]
+
+body:
+  - type: input
+    attributes:
+      label: ID пакета
+      placeholder: "barsik0396.ide"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Что скачивать?
+      description: "URL для скачивания. Можно использовать 'gh-rel: юзер/репо: тег: файл', если релиз опубликован через GitHub Releases."
+      placeholder: "https://my-website.com/releases/1.0/debian.deb"
+    validations:
+      required: true
+
+  - type: checkboxes
+    attributes:
+      label: Чекбоксы
+      options:
+        - label: У меня последняя версия репозитория (sudo apt update)
+          required: true

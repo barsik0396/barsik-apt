@@ -1,0 +1,51 @@
+name: Запрос пакета
+description: Хочешь добавить новый пакет?
+title: "Пакет: "
+labels: ["pkg"]
+
+body:
+  - type: input
+    attributes:
+      label: Название пакета
+      placeholder: "BarsikIDE"
+    validations:
+      required: false
+  - type: input
+    attributes:
+      label: ID пакета
+      description: "Нужен для публикации обновлений. Главное - чтобы не был занят."
+      placeholder: "barsik0396.ide"
+    validations:
+      required: false
+  - type: dropdown
+    attributes:
+      label: Куда публиковать?
+      description: "Создатель репозитория может изменить это. Подробнее про это поле в CONTRIBUTING.md."
+      multiple: false
+      options:
+        - "community"
+        - "community-unstable"
+        - "community-dev"
+        - "community-libs"
+        - "unstable"
+        - "dev"
+        - "libs"
+        - "main"
+  - type: textarea
+    attributes:
+      label: Что скачивать?
+      description: "URL для скачивания. Можно использовать 'gh-rel: юзер/репо: тег: файл', если релиз опубликован через GitHub Releases."
+      placeholder: "https://my-website.com/releases/1.0/debian.deb"
+    validations:
+      required: true
+
+  - type: checkboxes
+    attributes:
+      label: Чекбоксы
+      options:
+        - label: Я проверил, что Issue по такому пакету нет
+          required: true
+        - label: У меня последняя версия репозитория (sudo apt update)
+          required: true
+        - label: У меня есть права на публикацию этого пакета
+          required: true
