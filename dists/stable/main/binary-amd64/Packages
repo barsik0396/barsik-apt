@@ -69,3 +69,16 @@ MD5sum: a4c30c88cd658f958937fc9c04031f5e
 SHA1: 4405f5fb9e295d5b66ac271ec0bae6c1a7a2f1c7
 SHA256: 5a1ab6293d61ed0df68145cecd35ca3bc5aa959e6db1c1b3c34571f98f4b4b59
 
+Package: barsikterm
+Version: 0.1.0
+Architecture: amd64
+Maintainer: Barsik0396 <Barsik0396@outlook.com>
+Description: Терминал Барсика
+ BarsikTerm это простой, лёгкий и open-source терминал с GUI на базе Qt.
+Installed-Size: 112
+Filename: pool/main/BarsikTerm_v0.1.0_linux_debian-based.deb
+Size: 24880
+MD5sum: fdd134b75ad01a7d95b1893e6990682b
+SHA1: 2e5911175d06a1e9dd4aa1dfa521fba926bc8912
+SHA256: b181cfee1c57e1ed54a372c6b500fb5af1fec2cb1008543133b8ee1091130c2b
+
