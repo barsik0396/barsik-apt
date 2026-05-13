@@ -24,14 +24,9 @@ git clone https://github.com/user/repo.git
 
 После копирования, запускаем:
 ```bash
-./add_package.sh *.deb --channel=community
+./add_package.sh *.deb --channel community
 ```
-Это добавит .deb в pool/ и обновит репозиторий.
-
-Теперь удаляем .deb из корня форка:
-```bash
-rm *.deb
-```
+Это добавит .deb в pool/community и обновит репозиторий.
 
 Отлично, теперь мы добавили пакет в barsik-apt!
 
