@@ -29,7 +29,7 @@ Replaces: barsik-cmd
 Homepage: https://barsik0396.github.io/BarsikCMD
 Section: utils
 Priority: optional
-Filename: https://github.com/BarsikCMD/BarsikCMD/releases/download/2026.3.4/barsik-cmd_2026.3.4_amd64.deb
+Filename: pool/main/barsik-cmd_2026.3.4_amd64.deb
 Size: 83328442
 MD5sum: 0cc6c57f791421cd9b58ebb487b726c9
 SHA1: c62143c9733fba974664200082292d5a6ad460b5
