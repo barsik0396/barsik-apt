@@ -1,0 +1,14 @@
+Origin: barsik-apt
+Label: barsik-apt
+Suite: stable
+Codename: stable
+Architectures: amd64
+Components: main
+Description: Custom APT repository
+Date: Wed, 13 May 2026 11:00:05 +0000
+MD5Sum:
+ 9d1ff19033ec19f860ba5b20ac57dc73 1988 main/binary-amd64/Packages
+ a0123dac6ce063b4d371d43567f21b50 1044 main/binary-amd64/Packages.gz
+SHA256:
+ 4b801aa53bcc2a31a581a97f98d71dfbaf9799df843113481442c8cc4174a516 1988 main/binary-amd64/Packages
+ 58d748fb7f69875863aeed7283443744c57e6b82bafce0745b3f39f1f91941cb 1044 main/binary-amd64/Packages.gz

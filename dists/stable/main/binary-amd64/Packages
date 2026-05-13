@@ -1,0 +1,37 @@
+Package: barsikcmd
+Version: 2026.3.4
+Architecture: amd64
+Maintainer: barsik0396 <Barsik0396@outlook.com>
+Description: BarsikCMD — Командная строка Барсика
+ BarsikCMD это современная замена Bash, которая весит достаточно мало!
+ В BarsikCMD реализовано несколько команд:
+ clear — очистка экрана терминала,
+ echo [текст] — вывод текста на экран,
+ exit — выйти из BarsikCMD,
+ help — показать справку,
+ info [links] — информация о проекте,
+ meow — показать котика,
+ reload — перезапустить BarsikCMD,
+ update — проверить и по возможности установить обновление, ну и под конец
+ ver — показать версию BarsikCMD.
+ Так-же реализованы аргументы запуска:
+ -help — показать помощь,
+ -run <команда> — запустить команду и выйти,
+ -run2 <команда> — запустить команду и не выходить,
+ -disable-version-check-on-init — не выполнять проверку обновлений BarsikCMD при запуске, ну и
+ -load-type-select — заглушка, будет реализовано в следующих обновлениях.
+ Удачи с использованием командной строки BarsikCMD!
+Installed-Size: 305152
+Depends: 
+Recommends: libcurl4-openssl-dev
+Conflicts: 
+Replaces: barsik-cmd
+Homepage: https://barsik0396.github.io/BarsikCMD
+Section: utils
+Priority: optional
+Filename: https://github.com/BarsikCMD/BarsikCMD/releases/download/2026.3.4/barsik-cmd_2026.3.4_amd64.deb
+Size: 83328442
+MD5sum: 0cc6c57f791421cd9b58ebb487b726c9
+SHA1: c62143c9733fba974664200082292d5a6ad460b5
+SHA256: c9cd8a90c1a42c85bbc42dbb6565a788f9ad23601621748be20f02883d214374
+
