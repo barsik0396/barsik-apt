@@ -31,6 +31,8 @@ body:
         - "dev"
         - "libs"
         - "main"
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: Что скачивать?
