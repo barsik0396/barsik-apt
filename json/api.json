@@ -1,0 +1,17 @@
+{
+    "api": "26.05.14-16-54",
+    "version": "0.24.1",
+    "repo": {
+        "packages": "2",
+        "pkg-versions": "4",
+        "last-update": "14.05.2026 17:11",
+        "valid-until": "13.06.2026 17:11",
+        "size": "238.3mb"
+    },
+    "packages-list": [
+        "barsik-cmd=2026.3.2",
+        "barsik-cmd=2026.3.3",
+        "barsik-cmd=2026.3.4",
+        "barsikterm=0.1.0"
+    ]
+}
