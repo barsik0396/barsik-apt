@@ -1,0 +1,16 @@
+Origin: barsik0396
+Label: barsik-apt
+Suite: community-dev
+Codename: community-dev
+Version: 0.24.1
+Architectures: amd64
+Components: main
+Description: Custom APT repository
+Date: Thu, 14 May 2026 17:54:43 +0000
+Valid-Until: Sat, 13 Jun 2026 17:54:43 +0000
+MD5Sum:
+ c67eca3d8453a9e7083a7e64147098c3 798 main/binary-amd64/Packages
+ 5f039c9533d1185b7bfabb040d755277 537 main/binary-amd64/Packages.gz
+SHA256:
+ fd5cbc4e0b72bba67344502ee9e572c7045166756ae48db29b9087781a02ada5 798 main/binary-amd64/Packages
+ c5ecdc1fd6ad036800249b2bf8c920e37999175f2b9ed8942789fbe4150ed801 537 main/binary-amd64/Packages.gz

@@ -1,0 +1,18 @@
+Package: barsik-ide
+Version: 0.1.0
+Architecture: amd64
+Maintainer: Barsik <Barsik0396@outlook.com>
+Installed-Size: 20346
+Depends: libc6 (>= 2.17)
+Section: editors
+Priority: optional
+Homepage: https://github.com/barsik0396/BarsikIDE
+Description: BarsikIDE — лёгкий текстовый редактор и среда разработки
+ BarsikIDE — лёгкий текстовый редактор и интегрированная среда разработки,
+ созданная для удобства и простоты использования.
+Filename: pool/community-dev/barsikide_0.1.0_amd64.deb
+Size: 12733756
+MD5sum: fb2bd25792610a89f0529cb72e37c413
+SHA1: 0ab07d159db4d234c677e530c0011fe2e455ea17
+SHA256: 88b254954dac927c0336cda66c720e17dcb870f40b61ff06b2b783cb5a2eeacd
+
