@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "label": "barsik-apt pkg versions",
   "labelColor": "#222222",
-  "message": "4",
+  "message": "5",
   "color": "brightgreen",
   "isError": false,
   "style": "flat-square",
