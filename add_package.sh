@@ -78,14 +78,16 @@ gzip -9 -c "$DISTS_DIR/Packages" > "$DISTS_DIR/Packages.gz"
 # Regenerate Release
 cd "$REPO_ROOT"
 cat > "dists/$CHANNEL/Release" <<EOF
-Origin: $(basename "$REPO_ROOT")
+Origin: barsik0396
 Label: $(basename "$REPO_ROOT")
 Suite: $CHANNEL
 Codename: $CHANNEL
+Version: 0.24.1
 Architectures: amd64
 Components: main
 Description: Custom APT repository
 Date: $(date -Ru)
+Valid-Until: $(date -Ru -d "+30 days")
 EOF
 
 echo "MD5Sum:" >> "dists/$CHANNEL/Release"
